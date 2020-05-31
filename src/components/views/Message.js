@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Button} from 'react-bootstrap'
 
 class Message extends Component {
   constructor() {
@@ -18,7 +19,7 @@ class Message extends Component {
     return (
       <div>
         <h1>{this.state.message}</h1>
-        <button onClick={() => this.changeMessage()}>Subscribe</button>
+        <Button onClick={() => this.changeMessage()}>Subscribe</Button>
       </div>      
     )
   }

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Button} from 'react-bootstrap'
 
 class Counter extends React.Component {
   constructor(props) {
@@ -33,7 +34,7 @@ class Counter extends React.Component {
 		return (
 			<div>
 				<div>Count - {this.state.count}</div>        
-        <button onClick={() => this.addCountFive()}>Add Count</button>
+        <Button  onClick={() => this.addCountFive()}>Add Count</Button >
 			</div>
 		)
 	}

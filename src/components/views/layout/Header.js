@@ -18,10 +18,12 @@ export default class Header extends React.Component {
               <NavDropdown.Item href="#greet">Greet</NavDropdown.Item>
               <NavDropdown.Item href="#counter">Counter</NavDropdown.Item>
               <NavDropdown.Item href="#functionclick">Function Click</NavDropdown.Item>
-              <NavDropdown.Item href="#classclick">Clas Click</NavDropdown.Item>
+              <NavDropdown.Item href="#classclick">Class Click</NavDropdown.Item>
+              <NavDropdown.Item href="#eventbind">Event Bind</NavDropdown.Item>
+              <NavDropdown.Item href="#parentcomp">Parent Component</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Menu 2" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#menu1">Menu 1</NavDropdown.Item>
+              <NavDropdown.Item href="#modal">Open Modal</NavDropdown.Item>
               <NavDropdown.Item href="#menu2">Menu 2</NavDropdown.Item>
               <NavDropdown.Item href="#menu3">menu 3</NavDropdown.Item>
               <NavDropdown.Divider />

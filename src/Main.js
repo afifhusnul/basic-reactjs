@@ -9,6 +9,11 @@ import Greet from './components/views/Greet';
 import Counter from './components/views/Counter';
 import FunctionClick from './components/views/FunctionClick';
 import ClassClick from './components/views/ClassClick';
+import EventBind from './components/views/EventBind';
+import ParentComp from './components/views/ParentComponent';
+
+
+import Modalku from './components/views/OpenModal';
 
 import './components/styles/Main.css';
 
@@ -29,11 +34,19 @@ export default class Main extends Component {
                   <Route path="/counter" component={Counter}/>
                   <Route path="/functionclick" component={FunctionClick}/>
                   <Route path="/classclick" component={ClassClick}/>
+                  <Route path="/eventbind" component={EventBind}/>
+                  <Route path="/parentcomp" component={ParentComp}/>
                   
-
+                  <Route path="/modal" component={Modalku}/>
                 </HashRouter>
               </div>
+              <br/>
+              <br/>
               
+              {/*<center><Welcome name="Afif" heroName="Brawijaya"/> </center>*/}
+              {/*<center><Greet name="Afif" heroName="Brawijaya"/> </center>*/}
+              <br/>
+              <br/>              
             </div>  
         </Container>
     </div>        

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Button} from 'react-bootstrap'
 
 export class ClassClick extends React.Component {
 
@@ -8,7 +9,7 @@ export class ClassClick extends React.Component {
 	render() {
 		return (
 			<div>
-				<button onClick={this.clickHandler}>Click me</button>
+				<Button onClick={this.clickHandler}>Click me</Button>
 			</div>
 			)
 	}

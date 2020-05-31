@@ -1,4 +1,6 @@
 import React from 'react'
+import {Button} from 'react-bootstrap'
+
 
 function FunctionClick() {
 
@@ -7,7 +9,7 @@ function FunctionClick() {
 	}
 	return (
 		<div>
-			<button onClick={clickHandler}>Click</button>
+			<Button onClick={clickHandler}>Click</Button>
 		</div>
 	)
 }
